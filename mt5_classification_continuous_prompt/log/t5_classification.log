@@ -1,0 +1,9 @@
+Namespace(batch_size=8, bert_type='bert', data_dir='../data/THUCNews/news', epoch=32, gpu='0', lr=0.001, pooling_type='first-last-avg', pretrained_path='/data/Learn_Project/Backup_Data/mt5-small', save_path='../ckpt/t5_classification', sent_max_len=54, use_prompt=True, warmup_proportion=0.1)
+Epoch: 000; loss = 66.9266 cost time  10.3797
+Accuracy: 0.0000 Loss in test 0.0000
+Epoch: 001; loss = 66.9266 cost time  10.7935
+Accuracy: 0.0000 Loss in test 0.0000
+Epoch: 002; loss = 66.9266 cost time  10.7743
+Accuracy: 0.0000 Loss in test 0.0000
+Epoch: 003; loss = 66.9266 cost time  9.9885
+Accuracy: 0.0000 Loss in test 0.0000

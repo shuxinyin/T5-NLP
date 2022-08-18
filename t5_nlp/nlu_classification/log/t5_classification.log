@@ -1,0 +1,95 @@
+Namespace(batch_size=16, bert_type='bert', data_dir='../../data/THUCNews/news', epoch=32, gpu='0', lr=0.001, pooling_type='first-last-avg', pretrained_path='/data/Learn_Project/Backup_Data/mt5-small', save_path='../ckpt/t5_classification', sent_max_len=64, use_prompt=True, warmup_proportion=0.1)
+Epoch: 000; loss = 1.1097 cost time  150.2981
+Accuracy: 0.8250 Loss in test 0.0000
+'
+',                           precision    recall  f1-score   support
+
+    <extra_id_0>education     0.9459    0.8235    0.8805        85
+<extra_id_0>entertainment     0.9390    0.7196    0.8148       107
+      <extra_id_0>finance     0.7015    0.8174    0.7550       115
+         <extra_id_0>game     0.6713    0.9412    0.7837       102
+     <extra_id_0>politics     0.8200    0.8632    0.8410        95
+       <extra_id_0>realty     0.9065    0.8818    0.8940       110
+      <extra_id_0>science     0.9275    0.6400    0.7574       100
+      <extra_id_0>society     0.9634    0.8229    0.8876        96
+       <extra_id_0>sports     0.9082    0.9175    0.9128        97
+       <extra_id_0>stocks     0.6937    0.8280    0.7549        93
+
+                 accuracy                         0.8250      1000
+                macro avg     0.8477    0.8255    0.8282      1000
+             weighted avg     0.8455    0.8250    0.8267      1000
+, '
+', [[70  3  4  1  3  2  0  2  0  0]
+ [ 1 77  2 18  2  0  0  0  6  1]
+ [ 0  0 94  0  1  2  0  0  1 17]
+ [ 0  0  1 96  0  1  3  0  1  0]
+ [ 1  0  5  0 82  0  1  1  1  4]
+ [ 1  0  5  3  1 97  0  0  0  3]
+ [ 1  1  5 15  3  3 64  0  0  8]
+ [ 0  1  5  4  5  1  1 79  0  0]
+ [ 0  0  0  5  2  0  0  0 89  1]
+ [ 0  0 13  1  1  1  0  0  0 77]]
+Epoch: 001; loss = 0.6037 cost time  150.6161
+Accuracy: 0.8760 Loss in test 0.0000
+'
+',                           precision    recall  f1-score   support
+
+    <extra_id_0>education     0.8737    0.9765    0.9222        85
+<extra_id_0>entertainment     0.8661    0.9065    0.8858       107
+      <extra_id_0>finance     0.8099    0.8522    0.8305       115
+         <extra_id_0>game     0.8750    0.8922    0.8835       102
+     <extra_id_0>politics     0.9419    0.8526    0.8950        95
+       <extra_id_0>realty     0.9115    0.9364    0.9238       110
+      <extra_id_0>science     0.8977    0.7900    0.8404       100
+      <extra_id_0>society     0.8273    0.9479    0.8835        96
+       <extra_id_0>sports     0.8922    0.9381    0.9146        97
+       <extra_id_0>stocks     0.8986    0.6667    0.7654        93
+
+                 accuracy                         0.8760      1000
+                macro avg     0.8794    0.8759    0.8745      1000
+             weighted avg     0.8784    0.8760    0.8742      1000
+, '
+', [[ 83   0   0   0   0   1   0   1   0   0]
+ [  2  97   0   1   0   0   1   3   3   0]
+ [  1   3  98   0   0   3   1   4   2   3]
+ [  2   2   1  91   0   2   3   0   1   0]
+ [  3   0   1   0  81   0   1   7   0   2]
+ [  0   1   2   2   0 103   0   1   1   0]
+ [  1   1   1   9   1   1  79   2   3   2]
+ [  2   3   0   0   0   0   0  91   0   0]
+ [  0   5   0   0   0   0   0   1  91   0]
+ [  1   0  18   1   4   3   3   0   1  62]]
+Epoch: 002; loss = 0.4281 cost time  150.9259
+Accuracy: 0.8550 Loss in test 0.0000
+Epoch: 003; loss = 0.3412 cost time  151.4649
+Accuracy: 0.8770 Loss in test 0.0000
+'
+',                           precision    recall  f1-score   support
+
+    <extra_id_0>education     0.9630    0.9176    0.9398        85
+<extra_id_0>entertainment     0.8739    0.9065    0.8899       107
+      <extra_id_0>finance     0.8739    0.8435    0.8584       115
+         <extra_id_0>game     0.8571    0.8824    0.8696       102
+     <extra_id_0>politics     0.8447    0.9158    0.8788        95
+       <extra_id_0>realty     0.9327    0.8818    0.9065       110
+      <extra_id_0>science     0.9012    0.7300    0.8066       100
+      <extra_id_0>society     0.9149    0.8958    0.9053        96
+       <extra_id_0>sports     0.8704    0.9691    0.9171        97
+       <extra_id_0>stocks     0.7647    0.8387    0.8000        93
+
+                 accuracy                         0.8770      1000
+                macro avg     0.8796    0.8781    0.8772      1000
+             weighted avg     0.8796    0.8770    0.8766      1000
+, '
+', [[78  2  1  0  1  1  1  0  1  0]
+ [ 0 97  0  2  1  0  1  0  2  4]
+ [ 0  1 97  0  2  1  0  2  3  9]
+ [ 1  2  0 90  1  1  3  0  2  2]
+ [ 0  1  1  0 87  0  1  3  0  2]
+ [ 0  1  3  1  1 97  0  2  2  3]
+ [ 1  1  1 11  3  4 73  0  2  4]
+ [ 1  4  1  0  2  0  1 86  1  0]
+ [ 0  2  0  0  0  0  0  1 94  0]
+ [ 0  0  7  1  5  0  1  0  1 78]]
+Epoch: 004; loss = 0.2817 cost time  151.6145
+Accuracy: 0.8620 Loss in test 0.0000

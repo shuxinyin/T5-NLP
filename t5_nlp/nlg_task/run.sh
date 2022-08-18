@@ -1,0 +1,1 @@
+python train.py --pretrained_path /data/Learn_Project/Backup_Data/t5-pegasus-small
