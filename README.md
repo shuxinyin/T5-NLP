@@ -1,13 +1,12 @@
 ## T5 for nlp task:
-Two nlp-task about Text Classification and Text Summary based on T5 had been tested Here.
-主要基于mt5/t5-pegasus 实验了两个NLP任务，分别是基于mt5人工模板的prompt的文本分类以及生成类的文本摘要任务。
+Two nlp-task about Text Classification(artificial prompt) and Text Summary based on T5/mt5/t5-pegasus had been tested Here.
 
 ### How to run?
 data had been uploaded to the folder./data 
 
 1. Text Classification
 
-> cd t5_nlp/nlu_classification  
+> cd t5_nlp/nlu_classification    
 > python train.py --pretrained_path /data/Learn_Project/Backup_Data/mt5-small
 
 2. Text Summary
@@ -15,12 +14,12 @@ data had been uploaded to the folder./data
 - download the mt5/t5-pegasus pre-train model first.
 - you can run mt5/t5-pegasus by changing the the pretrained_path here.
 
-> cd t5_nlp/nlg_task
+> cd t5_nlp/nlg_task  
 > python train.py --pretrained_path /data/Learn_Project/Backup_Data/t5-pegasus-small
 
 ### Result
 
-#### Text Classification
+#### 1. Text Classification
 
 Tested on two data sizes in training model.
 
@@ -30,9 +29,9 @@ Tested on two data sizes in training model.
 | mT5-small | 0.8075    | 0.7935 | 0.7954 | n=1000    |
 | mT5-small | 0.8543    | 0.8546 | 0.8544 | n=10000   |
 
-#### Text Summary
+#### 2. Text Summary
 
-Dataset CSL: 3000 samples
+Dataset CSL: 3000 samples  
 Limit of my gpu memory, sentence length are set max_len=64, label_len=20, you could set it longer for getting better
 result
 
@@ -42,5 +41,5 @@ result
 | mT5-small        | 0.4517  | 0.3402  | 0.4251  | 0.3020 | max_len=64, label_len=20, batch_size=4  |
 
 pretrained model you can find here:  
-[T5-pegasus-torch pretrained model](https://github.com/renmada/t5-pegasus-pytorch)
+[T5-pegasus-torch pretrained model](https://github.com/renmada/t5-pegasus-pytorch)  
 [T5-pegasus-tensorflow pretrained model](https://github.com/ZhuiyiTechnology/t5-pegasus)
