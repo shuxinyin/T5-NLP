@@ -3,6 +3,7 @@ Two nlp-task about Text Classification and Text Summary based on T5 had been tes
 主要基于mt5/t5-pegasus 实验了两个NLP任务，分别是基于mt5人工模板的prompt的文本分类以及生成类的文本摘要任务。
 
 ### How to run?
+data had been uploaded to the folder./data 
 
 1. Text Classification
 
