@@ -41,5 +41,5 @@ result
 | mT5-small        | 0.4517  | 0.3402  | 0.4251  | 0.3020 | max_len=64, label_len=20, batch_size=4  |
 
 pretrained model you can find here:  
-[T5-pegasus-torch pretrained model](https://github.com/renmada/t5-pegasus-pytorch)  
-[T5-pegasus-tensorflow pretrained model](https://github.com/ZhuiyiTechnology/t5-pegasus)
+- [T5-pegasus-torch pretrained model](https://github.com/renmada/t5-pegasus-pytorch)  
+- [T5-pegasus-tensorflow pretrained model](https://github.com/ZhuiyiTechnology/t5-pegasus)
