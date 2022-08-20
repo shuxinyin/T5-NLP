@@ -1,6 +1,7 @@
 ## T5 for nlp task:
 Two nlp-task about Text Classification(artificial prompt) and Text Summary based on T5/mt5/t5-pegasus had been tested Here.
 
+Notes: [从T5、mT5、T5-PEGASUS对比与实践](https://zhuanlan.zhihu.com/p/555372846)  
 ### How to run?
 data had been uploaded to the folder./data 
 
